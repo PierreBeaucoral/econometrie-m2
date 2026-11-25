@@ -1,0 +1,16 @@
+[
+  {
+    "listing": "/corrections.html",
+    "items": []
+  },
+  {
+    "listing": "/seances.html",
+    "items": [
+      "/seances/s0-revision.html",
+      "/seances/s4.html",
+      "/seances/s5.html",
+      "/seances/s6.html",
+      "/seances/s7.html"
+    ]
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "seances/s0-revision.html",
+    "href": "seances/s0-revision.html",
+    "title": "Révision",
+    "section": "",
+    "text": "Séance de révision des séances 1 à 3, en salle. Applications : Card (1995) pour les MCO, Acemoglu, Johnson et Robinson (2001) pour les variables instrumentales. Quatre exercices se font sur machine, en binôme, sous Stata ou R. Le sujet s’appuie sur ceux des séances 1 à 3 conçus par Ibrahim Goni Abdoulkadiri.\n\nFiche (exercices et cases à remplir) : TD_etudiant_revision.pdf\nPaquet de la séance (données, S0_etudiant.do, S0_etudiant.R, fiche) : S0_revision.zip\n\nLes diapositives et les éléments de correction sont transmis directement aux étudiants."
+  },
+  {
+    "objectID": "seances/s7.html",
+    "href": "seances/s7.html",
+    "title": "Séance 7",
+    "section": "",
+    "text": "Nunn et Qian (2014) : aide alimentaire américaine et conflits ; critique de Christian et Barrett (2024).\n\nÉnoncé : TD_etudiant_seance_7.pdf\nPrésentation : ouvrir les slides\nPaquet de la séance (données, do-file et script R étudiants, énoncé) : TD7_materiel.zip\n\nLa correction sera publiée après la séance, dans Corrections."
+  },
+  {
+    "objectID": "seances/s4.html",
+    "href": "seances/s4.html",
+    "title": "Séance 4",
+    "section": "",
+    "text": "Ziliak (1997) : offre de travail de 532 individus suivis de 1979 à 1988.\n\nÉnoncé (Ibrahim Goni Abdoulkadiri) : TD_etudiant_seance_4.pdf\nPaquet de la séance (données, do-file et script R étudiants, énoncé) : TD4_materiel.zip\n\nLes diapositives et la correction sont transmises directement aux étudiants."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Travaux dirigés d’économétrie",
+    "section": "",
+    "text": "Ce site rassemble les supports des travaux dirigés : énoncés, présentations, données et codes. Les corrections des séances 6 et 7 sont publiées après chaque séance ; celles des séances précédentes sont transmises directement aux étudiants.\nChaque séance se fait au choix sous Stata ou sous R : les deux versions du code sont fournies et donnent les mêmes résultats (voir Stata et R).\n\n\n\nSéance\nThème\nApplication\n\n\n\n\nRévision\nMCO, Frisch–Waugh–Lovell, variables instrumentales\nCard (1995) ; Acemoglu, Johnson et Robinson (2001)\n\n\n4\nDonnées de panel et effets fixes\nZiliak (1997)\n\n\n5\nPanel dynamique et GMM\nZiliak (1997)\n\n\n6\nVariables instrumentales en panel\nMiguel, Satyanath et Sergenti (2004)\n\n\n7\nInstrument shift-share à un seul choc, placebo\nNunn et Qian (2014) ; Christian et Barrett (2024)\n\n\n\nOrganisation d’une séance. Télécharger le paquet de la séance, le décompresser, ouvrir Stata ou R dans le dossier décompressé, puis lancer le do-file ou le script étudiant."
+  },
+  {
+    "objectID": "corrections.html",
+    "href": "corrections.html",
+    "title": "Corrections",
+    "section": "",
+    "text": "Les corrections des séances 6 et 7 sont mises en ligne après chaque séance. Celles de la révision et des séances 4 et 5 sont transmises directement aux étudiants.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\nCorrection\nThème\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "seances.html",
+    "href": "seances.html",
+    "title": "Séances",
+    "section": "",
+    "text": "Trier par\n      Ordre par défaut\n      \n        Séance\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nSéance\n\n\n\nThème\n\n\n\n\n\n\n\n\nRévision\n\n\nMCO, Frisch–Waugh–Lovell, variables instrumentales\n\n\n\n\n\n\nSéance 4\n\n\nDonnées de panel et effets fixes\n\n\n\n\n\n\nSéance 5\n\n\nPanel dynamique et GMM\n\n\n\n\n\n\nSéance 6\n\n\nVariables instrumentales en panel\n\n\n\n\n\n\nSéance 7\n\n\nInstrument shift-share à un seul choc, placebo\n\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "logiciels.html",
+    "href": "logiciels.html",
+    "title": "Stata et R",
+    "section": "",
+    "text": "ssc install ivreg2\nssc install ranktest\nssc install ftools\nssc install require\nssc install reghdfe\nssc install ivreghdfe\nssc install xtabond2\nOuvrir Stata, faire cd vers le dossier de la séance, puis do TDx_etudiant.do."
+  },
+  {
+    "objectID": "logiciels.html#stata-version-17-ou-plus",
+    "href": "logiciels.html#stata-version-17-ou-plus",
+    "title": "Stata et R",
+    "section": "",
+    "text": "ssc install ivreg2\nssc install ranktest\nssc install ftools\nssc install require\nssc install reghdfe\nssc install ivreghdfe\nssc install xtabond2\nOuvrir Stata, faire cd vers le dossier de la séance, puis do TDx_etudiant.do."
+  },
+  {
+    "objectID": "logiciels.html#r-version-4.3-ou-plus",
+    "href": "logiciels.html#r-version-4.3-ou-plus",
+    "title": "Stata et R",
+    "section": "R (version 4.3 ou plus)",
+    "text": "R (version 4.3 ou plus)\ninstall.packages(c(\"fixest\", \"plm\", \"haven\", \"dplyr\", \"tidyr\",\n                   \"ggplot2\", \"patchwork\", \"here\", \"lmtest\"))\nOuvrir R dans le dossier de la séance (le fichier .here y est déjà), puis source(\"TDx_etudiant.R\")."
+  },
+  {
+    "objectID": "logiciels.html#correspondances",
+    "href": "logiciels.html#correspondances",
+    "title": "Stata et R",
+    "section": "Correspondances",
+    "text": "Correspondances\n\n\n\n\n\n\n\nStata\nR\n\n\n\n\nxtreg y x, fe vce(cluster id)\nfeols(y ~ x \\| id, data, cluster = ~id)\n\n\nreghdfe y x, absorb(a b) cluster(a)\nfeols(y ~ x \\| a + b, data, cluster = ~a)\n\n\nivreghdfe y (x = z), absorb(a) cluster(a)\nfeols(y ~ 1 \\| a \\| x ~ z, data, cluster = ~a)\n\n\nxtreg y x, re\nplm(y ~ x, data, model = \"random\")\n\n\nxtabond2 ...\nplm::pgmm(...)\n\n\n\nLes coefficients coïncident. Les écarts types peuvent différer légèrement selon la correction de petit échantillon (par exemple ivregress, small et ivreghdfe) ; chaque correction le signale."
+  },
+  {
+    "objectID": "seances/s5.html",
+    "href": "seances/s5.html",
+    "title": "Séance 5",
+    "section": "",
+    "text": "Ziliak (1997) : même panel, avec les heures retardées comme régresseur.\n\nÉnoncé (Ibrahim Goni Abdoulkadiri) : TD_etudiant_seance_5.pdf\nPaquet de la séance (données, do-file et script R étudiants, énoncé) : TD5_materiel.zip\n\nLes diapositives et la correction sont transmises directement aux étudiants."
+  },
+  {
+    "objectID": "seances/s6.html",
+    "href": "seances/s6.html",
+    "title": "Séance 6",
+    "section": "",
+    "text": "Miguel, Satyanath et Sergenti (2004) : la pluie comme instrument de la croissance en Afrique subsaharienne.\n\nÉnoncé : TD_etudiant_seance_6.pdf\nPrésentation : ouvrir les slides\nPaquet de la séance (données, do-file et script R étudiants, énoncé) : TD6_materiel.zip\n\nLa correction sera publiée après la séance, dans Corrections."
+  }
+]
