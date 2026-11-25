@@ -1,0 +1,12 @@
+---
+title: "Séance 5"
+subtitle: "Panel dynamique et GMM"
+order: 5
+---
+
+Ziliak (1997) : même panel, avec les heures retardées comme régresseur.
+
+- **Énoncé** (Ibrahim Goni Abdoulkadiri) : [TD_etudiant_seance_5.pdf](../enonces/TD_etudiant_seance_5.pdf){target="_blank"}
+- **Paquet de la séance** (données, do-file et script R étudiants, énoncé) : [TD5_materiel.zip]({{< var paquets >}}/TD5_materiel.zip)
+
+Les diapositives et la correction sont transmises directement aux étudiants.

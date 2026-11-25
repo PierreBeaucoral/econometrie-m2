@@ -1,0 +1,11 @@
+---
+title: "Séances"
+listing:
+  contents: seances
+  type: table
+  sort: "order"
+  fields: [title, subtitle]
+  field-display-names:
+    title: "Séance"
+    subtitle: "Thème"
+---

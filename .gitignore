@@ -1,0 +1,10 @@
+/.quarto/
+/_site/
+/paquets/
+*.bak
+
+**/*.quarto_ipynb
+
+# Sources des corrections : non versionnées (dépôt public) ; seules les pages
+# publiées (draft: false) partent sur gh-pages via `quarto publish`.
+/corrections/

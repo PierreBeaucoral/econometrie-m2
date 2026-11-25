@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - slides/
+    - enonces/
+    - telechargements/
+
+website:
+  title: "Économétrie · Magistère 3 · TD"
+  site-url: "https://pierrebeaucoral.github.io/econometrie-m2/"
+  draft-mode: gone            # les corrections en `draft: true` ne sont ni rendues ni listées
+  navbar:
+    left:
+      - href: index.qmd
+        text: Accueil
+      - href: seances.qmd
+        text: Séances
+      - href: corrections.qmd
+        text: Corrections
+      - href: logiciels.qmd
+        text: Stata et R
+    right:
+      - icon: house
+        href: https://pierrebeaucoral.github.io/
+        aria-label: Site personnel
+  page-footer:
+    left: "Pierre Beaucoral · Magistère 3"
+    right: "Données : paquets de réplication des auteurs, sous leurs licences respectives."
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    lang: fr

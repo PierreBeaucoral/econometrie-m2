@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono&display=swap');
+/* Palette reprise de pierrebeaucoral.github.io/css/site.css */
+:root {
+  --paper: #EEF0EA; --ink: #1E231D; --muted: #666A5E; --line: #DCDFD2;
+  --forest: #18241D; --forest2: #2E6048; --accent: #7A3B5E; --ocean: #2C5C70;
+}
+body { background: var(--paper); color: var(--ink); font-family: "IBM Plex Sans", -apple-system, sans-serif; }
+h1, h2, h3, .navbar-title { font-family: "Newsreader", Georgia, serif; font-weight: 600; font-style: normal; }
+a { color: var(--accent); }
+.navbar { background: var(--forest) !important; }
+.navbar .nav-link, .navbar-title { color: #F0F2EA !important; }
+code { color: var(--ocean); background: transparent; font-family: "IBM Plex Mono", monospace; }
+table { font-variant-numeric: tabular-nums; }
+.callout { border-left-width: 1px !important; }

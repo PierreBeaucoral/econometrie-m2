@@ -1,0 +1,13 @@
+---
+title: "Corrections"
+listing:
+  contents: corrections
+  type: table
+  sort: "order"
+  fields: [title, subtitle]
+  field-display-names:
+    title: "Correction"
+    subtitle: "Thème"
+---
+
+Les corrections des séances 6 et 7 sont mises en ligne après chaque séance. Celles de la révision et des séances 4 et 5 sont transmises directement aux étudiants.

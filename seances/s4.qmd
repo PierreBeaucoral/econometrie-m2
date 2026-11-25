@@ -1,0 +1,12 @@
+---
+title: "Séance 4"
+subtitle: "Données de panel et effets fixes"
+order: 4
+---
+
+Ziliak (1997) : offre de travail de 532 individus suivis de 1979 à 1988.
+
+- **Énoncé** (Ibrahim Goni Abdoulkadiri) : [TD_etudiant_seance_4.pdf](../enonces/TD_etudiant_seance_4.pdf){target="_blank"}
+- **Paquet de la séance** (données, do-file et script R étudiants, énoncé) : [TD4_materiel.zip]({{< var paquets >}}/TD4_materiel.zip)
+
+Les diapositives et la correction sont transmises directement aux étudiants.

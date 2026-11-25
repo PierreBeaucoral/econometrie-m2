@@ -1,0 +1,38 @@
+---
+title: "Stata et R"
+---
+
+## Stata (version 17 ou plus)
+
+```stata
+ssc install ivreg2
+ssc install ranktest
+ssc install ftools
+ssc install require
+ssc install reghdfe
+ssc install ivreghdfe
+ssc install xtabond2
+```
+
+Ouvrir Stata, faire `cd` vers le dossier de la séance, puis `do TDx_etudiant.do`.
+
+## R (version 4.3 ou plus)
+
+```r
+install.packages(c("fixest", "plm", "haven", "dplyr", "tidyr",
+                   "ggplot2", "patchwork", "here", "lmtest"))
+```
+
+Ouvrir R dans le dossier de la séance (le fichier `.here` y est déjà), puis `source("TDx_etudiant.R")`.
+
+## Correspondances
+
+| Stata | R |
+|---|---|
+| `xtreg y x, fe vce(cluster id)` | `feols(y ~ x \| id, data, cluster = ~id)` |
+| `reghdfe y x, absorb(a b) cluster(a)` | `feols(y ~ x \| a + b, data, cluster = ~a)` |
+| `ivreghdfe y (x = z), absorb(a) cluster(a)` | `feols(y ~ 1 \| a \| x ~ z, data, cluster = ~a)` |
+| `xtreg y x, re` | `plm(y ~ x, data, model = "random")` |
+| `xtabond2 ...` | `plm::pgmm(...)` |
+
+Les coefficients coïncident. Les écarts types peuvent différer légèrement selon la correction de petit échantillon (par exemple `ivregress, small` et `ivreghdfe`) ; chaque correction le signale.

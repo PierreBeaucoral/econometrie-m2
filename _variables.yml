@@ -1,0 +1,3 @@
+# Adresse des paquets à télécharger (servis par ce site, dossier telechargements/).
+# Pour les héberger ailleurs (ex. site personnel), changer cette ligne.
+paquets: "https://pierrebeaucoral.github.io/econometrie-m2/telechargements"

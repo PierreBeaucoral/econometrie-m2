@@ -1,0 +1,13 @@
+---
+title: "Séance 6"
+subtitle: "Variables instrumentales en panel"
+order: 6
+---
+
+Miguel, Satyanath et Sergenti (2004) : la pluie comme instrument de la croissance en Afrique subsaharienne.
+
+- **Énoncé** : [TD_etudiant_seance_6.pdf](../enonces/TD_etudiant_seance_6.pdf){target="_blank"}
+- **Présentation** : [ouvrir les slides](../slides/TD6_slides.html){target="_blank"}
+- **Paquet de la séance** (données, do-file et script R étudiants, énoncé) : [TD6_materiel.zip]({{< var paquets >}}/TD6_materiel.zip)
+
+La correction sera publiée après la séance, dans [Corrections](../corrections.qmd).

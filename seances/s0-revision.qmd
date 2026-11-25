@@ -1,0 +1,12 @@
+---
+title: "Révision"
+subtitle: "MCO, Frisch–Waugh–Lovell, variables instrumentales"
+order: 0
+---
+
+Séance de révision des séances 1 à 3, en salle. Applications : Card (1995) pour les MCO, Acemoglu, Johnson et Robinson (2001) pour les variables instrumentales. Quatre exercices se font sur machine, en binôme, sous Stata ou R. Le sujet s'appuie sur ceux des séances 1 à 3 conçus par Ibrahim Goni Abdoulkadiri.
+
+- **Fiche** (exercices et cases à remplir) : [TD_etudiant_revision.pdf](../enonces/TD_etudiant_revision.pdf){target="_blank"}
+- **Paquet de la séance** (données, `S0_etudiant.do`, `S0_etudiant.R`, fiche) : [S0_revision.zip]({{< var paquets >}}/S0_revision.zip)
+
+Les diapositives et les éléments de correction sont transmis directement aux étudiants.

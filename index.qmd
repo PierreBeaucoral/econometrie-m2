@@ -1,0 +1,19 @@
+---
+title: "Travaux dirigés d'économétrie"
+subtitle: "Magistère 3 · Données de panel et variables instrumentales"
+toc: false
+---
+
+Ce site rassemble les supports des travaux dirigés : énoncés, présentations, données et codes. Les corrections des séances 6 et 7 sont publiées après chaque séance ; celles des séances précédentes sont transmises directement aux étudiants.
+
+Chaque séance se fait au choix sous **Stata** ou sous **R** : les deux versions du code sont fournies et donnent les mêmes résultats (voir [Stata et R](logiciels.qmd)).
+
+| Séance | Thème | Application |
+|---|---|---|
+| [Révision](seances/s0-revision.qmd) | MCO, Frisch–Waugh–Lovell, variables instrumentales | Card (1995) ; Acemoglu, Johnson et Robinson (2001) |
+| [4](seances/s4.qmd) | Données de panel et effets fixes | Ziliak (1997) |
+| [5](seances/s5.qmd) | Panel dynamique et GMM | Ziliak (1997) |
+| [6](seances/s6.qmd) | Variables instrumentales en panel | Miguel, Satyanath et Sergenti (2004) |
+| [7](seances/s7.qmd) | Instrument shift-share à un seul choc, placebo | Nunn et Qian (2014) ; Christian et Barrett (2024) |
+
+**Organisation d'une séance.** Télécharger le paquet de la séance, le décompresser, ouvrir Stata ou R **dans le dossier décompressé**, puis lancer le do-file ou le script étudiant.
